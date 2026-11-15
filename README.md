@@ -1,26 +1,50 @@
-# Multiverse Explorer — Rick and Morty
+# 🌌 Multiverse Explorer — Rick and Morty
 
-Projeto acadêmico de Web Development Front-End desenvolvido com HTML, CSS e JavaScript puro.
+Projeto acadêmico de desenvolvimento Front-End que apresenta um catálogo interativo de personagens do universo Rick and Morty, utilizando HTML, CSS, JavaScript e integração com API externa.
 
+## 🚀 Acesse o projeto
 
-## API utilizada
+🌐 **Site publicado:** https://vnnnnzs.github.io/Multiverse_Explorer/
 
-Rick and Morty API  
-Documentação: https://rickandmortyapi.com/documentation  
-Endpoint de personagens: https://rickandmortyapi.com/api/character
+📁 **Repositório:** https://github.com/vnnnnzs/Multiverse_Explorer
 
-A API fornece dados em JSON e não exige token para as consultas públicas documentadas.
+## 📖 Sobre o projeto
 
-## Estrutura
+O Multiverse Explorer é uma aplicação web desenvolvida com o objetivo de praticar conceitos de desenvolvimento Front-End.
 
-- `index.html`: estrutura e conteúdo da página.
-- `style.css`: aparência, cores e responsividade.
-- `script.js`: requisições com fetch, filtros e criação dinâmica dos cards.
+A plataforma permite explorar personagens do universo Rick and Morty, visualizar informações e realizar buscas utilizando dados disponibilizados pela API.
 
-## Funcionalidades
+## ✨ Funcionalidades
 
 - Listagem de personagens.
-- Busca por nome.
-- Filtro por status.
-- Paginação com botão “Carregar mais”.
-- Cards criados dinamicamente pelo JavaScript.
+- Exibição de imagens e informações.
+- Pesquisa por nome.
+- Filtro por status dos personagens.
+- Informações sobre espécie e dimensão de origem.
+- Integração com API Rick and Morty.
+- Layout responsivo para computadores e celulares.
+
+## 🛠️ Tecnologias utilizadas
+
+- **HTML5:** estrutura da aplicação.
+- **CSS3:** estilização, layout e responsividade.
+- **JavaScript:** funcionalidades e manipulação dos dados.
+- **API Rick and Morty:** obtenção dos dados dos personagens.
+- **Git e GitHub:** versionamento e armazenamento do projeto.
+- **GitHub Pages:** hospedagem da aplicação.
+
+## 🔗 API utilizada
+
+[The Rick and Morty API](https://rickandmortyapi.com/)
+
+A API fornece informações sobre personagens, episódios e localizações do universo da série.
+
+## 🎯 Objetivo acadêmico
+
+Aplicar conhecimentos de desenvolvimento Web Front-End, trabalhando com estrutura HTML, estilização CSS, lógica JavaScript, consumo de API e publicação de aplicações na internet.
+
+---
+
+**Desenvolvido como projeto acadêmico de Web Development Front-End.**
+
+🌌 Multiverse Explorer — Explore o Multiverso!
