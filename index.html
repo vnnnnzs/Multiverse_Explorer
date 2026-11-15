@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="Explore personagens do universo Rick and Morty.">
+  <title>Multiverse Explorer | Rick and Morty</title>
+  <link rel="stylesheet" href="style.css">
+  <script src="script.js" defer></script>
+</head>
+<body>
+  <header class="topbar">
+    <a class="logo" href="#" aria-label="Multiverse Explorer - início">
+      <span class="logo-mark">M</span>
+      <span>MULTIVERSE<span class="logo-accent"> EXPLORER</span></span>
+    </a>
+    <span class="topbar-tag">RICK AND MORTY DATABASE</span>
+  </header>
+
+  <main>
+    <section class="hero">
+      <div class="hero-content">
+        <p class="eyebrow">PORTAL INTERDIMENSIONAL ABERTO</p>
+        <h1>Explore o <span>Multiverso.</span></h1>
+        <p class="hero-description">
+          Conheça personagens, espécies e histórias de diferentes dimensões.
+          Sua próxima descoberta está a um portal de distância.
+        </p>
+        <a class="hero-button" href="#personagens">Explorar personagens <span>↓</span></a>
+      </div>
+      <div class="portal-art" aria-hidden="true">
+        <div class="portal-ring portal-ring-outer"></div>
+        <div class="portal-ring portal-ring-inner"></div>
+        <div class="portal-core">R&M</div>
+        <span class="orbit orbit-one">✦</span>
+        <span class="orbit orbit-two">✧</span>
+      </div>
+      <div class="hero-grid" aria-hidden="true"></div>
+    </section>
+
+    <section class="catalog" id="personagens">
+      <div class="section-heading">
+        <div>
+          <p class="eyebrow">ARQUIVO INTERDIMENSIONAL</p>
+          <h2>Personagens <span>catalogados</span></h2>
+          <p class="section-description">Dados carregados diretamente da API Rick and Morty.</p>
+        </div>
+        <div class="counter"><strong id="total-count">—</strong><span>PERSONAGENS NA API</span></div>
+      </div>
+
+      <div class="toolbar">
+        <label class="search-box">
+          <span aria-hidden="true">⌕</span>
+          <input id="search-input" type="search" placeholder="Buscar personagem..." autocomplete="off">
+        </label>
+        <label class="filter-box">
+          <span class="sr-only">Filtrar por status</span>
+          <select id="status-filter">
+            <option value="">Todos os status</option>
+            <option value="alive">Vivo</option>
+            <option value="dead">Morto</option>
+            <option value="unknown">Desconhecido</option>
+          </select>
+        </label>
+        <button id="search-button" class="search-button">Buscar</button>
+      </div>
+
+      <p id="feedback" class="feedback" role="status">Conectando ao banco de dados...</p>
+      <div id="character-list" class="character-grid" aria-live="polite"></div>
+      <div class="load-area">
+        <button id="load-more" class="load-button" hidden>Carregar mais personagens <span>＋</span></button>
+      </div>
+    </section>
+  </main>
+
+  <footer>
+    <p><strong>MULTIVERSE EXPLORER</strong> — Projeto acadêmico de Web Development Front-End.</p>
+    <p>Dados fornecidos pela <a href="https://rickandmortyapi.com/" target="_blank" rel="noopener noreferrer">Rick and Morty API</a>.</p>
+  </footer>
+</body>
+</html>
