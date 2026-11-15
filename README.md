@@ -2,12 +2,6 @@
 
 Projeto acadêmico de Web Development Front-End desenvolvido com HTML, CSS e JavaScript puro.
 
-## Como executar
-
-1. Extraia a pasta do projeto.
-2. Abra a pasta no Visual Studio Code.
-3. Abra o arquivo `index.html` no navegador. Para uma experiência melhor, utilize a extensão Live Server.
-4. É necessária conexão com a internet para consultar a API e carregar as fontes externas.
 
 ## API utilizada
 
@@ -30,7 +24,3 @@ A API fornece dados em JSON e não exige token para as consultas públicas docum
 - Filtro por status.
 - Paginação com botão “Carregar mais”.
 - Cards criados dinamicamente pelo JavaScript.
-
-## Observação acadêmica
-
-Este projeto é uma versão inicial para estudo. Leia os comentários do JavaScript e personalize o código antes da entrega, para conseguir explicar as decisões e os comandos utilizados.
